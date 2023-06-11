@@ -417,7 +417,7 @@ if args.do_test:
         total_macro_f1_rationale += macro_f1_rationale
         total_iou_rationale += iou_f1_rationale
 
-    avg_test_accuracy_empathy = total_eval_accuracy_empathy / len(test_dataloader) - (0.052)
+    avg_test_accuracy_empathy = total_eval_accuracy_empathy / len(test_dataloader)
     avg_test_accuracy_rationale = total_eval_accuracy_rationale / len(test_dataloader)
 
     avg_test_pos_f1_empathy = total_pos_f1_empathy / len(test_dataloader)
