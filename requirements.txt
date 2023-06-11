@@ -1,0 +1,12 @@
+# platform: linux-64
+# python=3.7.3
+# pip install -r requirements.txt
+numpy
+pandas
+scikit-learn==0.22.2.post1
+torch
+torchvision
+tqdm==4.45.0
+transformers
+# used for cpu, ram usage. 
+psutils
